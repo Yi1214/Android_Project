@@ -1,6 +1,6 @@
 # Android_Project
-This respository only contains part of my work on Android APP development.
-We also analyzed and optimized the memory of this app.
+# This respository only contains part of my work on Android APP development.
+# We also analyzed and optimized the memory of this app.
 
 In this project, we use the Profiler tool of Android Studio to analyze the cause of memory jitter in the project. 
 As shown in the figure below, we found that in the process of memory jitter, a large number of objects were created, with a total of 37,086.
