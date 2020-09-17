@@ -23,6 +23,6 @@ First, we optimized the relevant code for data query.
 Then, the above-mentioned large number of created objects are unified as global variables, 
 and the reuse of the objects is realized through conditional judgment inside the loop calling method, avoiding the creation of objects in the loop and repeated calling methods, thereby solving the stuck problem of APP.
 
-The following figure shows the memory usage in the same time period after our optimization. It can be seen that the number of objects created has dropped from 37,086 to 11,573, a reduction of about 2/3. Overall, the memory usage is more stable.
+The following figure shows the memory usage in the same time period after our optimization. It can be seen that the number of objects created **has dropped from 37,086 to 11,573, a reduction of about 2/3**. Overall, the memory usage is more stable.
 
 ![image](https://github.com/Yi1214/Android_Project/blob/master/Memory_Optimization/memory_optimization.png)
